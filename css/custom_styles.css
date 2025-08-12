@@ -1,0 +1,150 @@
+#costcenter-form_inner{
+    /*visibility: visible !important;*/
+}
+
+#page-local-costcenter-index .new_create {
+    background-color: #03A9F4 !important;
+    padding: 10px 1%;
+    margin-top: 0px;
+    float: left;
+    width: 18%;
+    color: #FFF;
+    font-size: 20px;
+    height: 29px;
+    line-height: 29px;
+}
+#page-local-costcenter-index #costcenter-form_caption>a>img{
+    display: none;
+}
+
+/*#page-local-costcenter-index .tmhead2 {*/
+/*    */
+/*    background-color: #0072bc !important;*/
+/* */
+/*}*/
+
+/*#page-local-costcenter-courses .tmhead2 {*/
+/*   background-color: #0072bc !important;*/
+/*}*/
+
+#page-local-costcenter-courses .addcoursebutton .singlebutton input[type="submit"] {
+    border: medium none;
+    
+    /*height: 50px !important;*/
+    width: 100% !important;
+    outline: medium none;
+    margin: 0px !important;
+    font-size: 19px !important;
+    border-radius: 0px;
+    text-transform: none;
+    font-weight: 100;
+    height: 48px !important;
+}
+.userlist{
+     width: 20% !important;
+}
+div.facilitator {
+    width: 100%;
+    /*padding: 13px 594px 0 0;*/
+    padding: 10px 0px;
+}
+body.path-local-costcenter .coursebox .info .moreinfo{
+    float: left;
+    width: 100%;
+}
+div.facilitator>form[name=facilitator_form]{
+    background-color:transparent;
+}
+div.facilitator>form[name=facilitator_form] .facilitator_form_div{
+    text-align: center;
+    border: 1px solid #0072bc !important;
+    border-style: unset;
+    /*background-color:#0072bc !important;*/
+    
+}
+div.facilitator>form[name=facilitator_form] .facilitator_form_div .selectbox_container{
+    padding-top: 10px;
+}
+div.facilitator>form[name=facilitator_form] .facilitator_form_div .selectbox_container,
+div.facilitator>form[name=facilitator_form] .facilitator_form_div .percentage_textbox_container{
+    margin: 10px 0px;
+}
+input.percentage,.select2-container {
+   /* margin-left: 7%;*/
+     width: 14%;
+}
+lable.facilitatorlabel {
+    margin-right: 1%;
+    font-size: 13px;
+}
+
+#facilitator_pagenation thead th{
+    background-color: #0072bc !important;
+}
+.addcoursebutton{
+    text-align: left !important;
+    /*width: 14% !important;*/
+}
+#page-local-costcenter-courses .addcoursebutton {
+    float: right;
+    position: absolute;
+    right: 11px;
+    padding: 13px 0px;
+    width: inherit !important;
+    background-color: #03A9F4;
+    margin: 0px;
+}
+/*css for mozilla/firefox only*/
+@-moz-document url-prefix() {
+    
+}
+#page-local-costcenter-courses .addcoursebutton a {
+    color: #fff;
+    font-size: 20px;
+    float: right;
+    padding:1px;
+    margin-right: 15px;
+}
+#page-local-costcenter-courses .addcoursebutton>.singlebutton>form{
+    float: left;
+    width: 100%;
+    padding: 0px;
+}
+#page-local-costcenter-courses .addcoursebutton>.singlebutton>form>div{
+    width: 100%;
+}
+#page-local-costcenter-courses .addcoursebutton>.singlebutton>form>div>input[type='submit']{
+    /*height: 47px !important;*/
+    padding: 1%;
+}
+#page-local-costcenter-courses #filter-box .filterarea {
+   float: left;
+    width: 100%;
+    text-align: center;
+    /*margin-left: 20% !important;*/
+}
+.dataTables_length{
+        width: 10%; 
+}
+span.req {
+    color: red;
+}
+input#facilitatorcredited{
+    width: 4% !important;
+}
+h5.assign_facilitator {
+    float: left;
+    color: white;
+    background-color: #0072bc !important;
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 95%;
+}
+.facilitator_value {
+    font-size: 14px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    font-size: 13px;
+}

@@ -1,0 +1,582 @@
+/* Set the item indentation on the department index page */
+#department-index .departmentitem {
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: #266C92 !important;
+    font-weight: 400;
+}
+#department-index .depth1 {
+    background-position: left top;
+    margin-left: 5px;
+    padding-left: 16px;
+    background-position-y: 46%;
+     background-image:url([[pix:local_costcenter|icon-blue]]);
+}
+#department-index .depth2 {
+    background-position: left top;
+    margin-left: 28px;
+    padding-left: 16px;
+    background-position-y: 46%;
+    background-image:url([[pix:local_costcenter|square-black]]);
+}
+#department-index .depth3 {
+    background-position: left top;
+    margin-left: 58px;
+    padding-left: 16px;
+    background-position-y: 46%;
+    background-image:url([[pix:local_costcenter|square-black]]);
+}
+#department-index .depth4 {
+    background-position: left top;
+    margin-left: 88px;
+    padding-left: 16px;
+    background-position-y: 46%;
+     background-image:url([[pix:local_costcenter|square-black]]);
+}
+#department-index.depth5 {
+    background-position: left top;
+    margin-left: 118px;
+    padding-left: 16px;
+    background-position-y: 46%;
+    background-image:url([[pix:local_costcenter|square-black]]);
+}
+#department-index .depth6 {
+    background-position: left top;
+    margin-left: 148px;
+    padding-left: 16px;
+    background-position-y: 46%;
+    background-image:url([[pix:local_costcenter|square-black]]);
+}
+#department-index.depth7 {
+    background-position: left top;
+    margin-left: 185px;
+    padding-left: 16px;
+    background-position-y: 46%;
+    background-image:url([[pix:local_costcenter|square-black]]);
+}
+#department-index.depth8 {
+    background-position: left top;
+    margin-left: 215px;
+    padding-left: 16px;
+    background-position-y: 46%;
+    background-image:url([[pix:local_costcenter|square-black]]);
+}
+#department-index .depth9 {
+    background-position: left top;
+    margin-left: 245px;
+    padding-left: 16px;
+    background-position-y: 46%;
+    background-image:url([[pix:local_costcenter|square-black]]);
+}
+#department-index .depth10 {
+    background-position: left top;
+    margin-left: 275px;
+    padding-left: 16px;
+    background-position-y: 46%;
+    background-image:url([[pix:local_costcenter|square-black]]);
+}
+
+/* override in RTL languages */
+
+.dir-rtl #department-index .depth1 {
+    background-position: right top;
+    margin-right: 5px;
+    padding-right: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.dir-rtl #department-index .depth2 {
+    background-position: right top;
+    margin-right: 35px;
+    padding-right: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.dir-rtl #department-index.depth3 {
+    background-position: right top;
+    margin-right: 65px;
+    padding-right: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.dir-rtl #department-index .depth4 {
+    background-position: right top;
+    margin-right: 95px;
+    padding-right: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.dir-rtl #department-index .depth5 {
+    background-position: right top;
+    margin-right: 125px;
+    padding-right: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.dir-rtl #department-index .depth6 {
+    background-position: right top;
+    margin-right: 155px;
+    padding-right: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.dir-rtl #department-index .depth7 {
+    background-position: right top;
+    margin-right: 185px;
+    padding-right: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.dir-rtl #department-index .depth8 {
+    background-position: right top;
+    margin-right: 215px;
+    padding-right: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.dir-rtl #department-index .depth9 {
+    background-position: right top;
+    margin-right: 245px;
+    padding-right: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.dir-rtl #department-index .depth10 {
+    background-position: right top;
+    margin-right: 275px;
+    padding-right: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#department-index .coursedepth1 {
+    margin-left:40px;
+    padding:5px;
+}
+#department-index .coursedepth2 {
+    margin-left:75px;
+    padding:5px;
+}
+.completed_color {
+    color: #2B9903;
+}
+.notenrolled_color{
+    color: #FE0612;
+}
+.inprogress_color{
+    color: #0222F1;
+}
+#costcenter-form a {
+font-size: 14px;
+/* margin: 50px 0; */
+}
+/*div#costcenter-form {*/
+/*margin: 15px 0;*/
+/*}*/
+#costcenter-info,#courseview-info {
+margin: 0;
+clear: both;
+}
+#costcenter-info{
+    /*float: right;*/
+margin: 0 auto;
+border: 1px dashed #CABDBD;
+padding: 5px;
+width: 70%;
+}
+
+#courseview-info{
+text-align: center;
+width: 50%;
+margin: 0 auto;
+border: 1px dashed #6D6E72;
+padding: 5px;
+}
+#costcenter-info li,#courseview-info li {
+list-style: none;
+display: inline-block;
+padding: 0 10px;
+font-size: 12px;
+/* border: 1px solid #EAEAEA; */
+border-radius: 4px;
+margin: 0 5px;
+}
+#action_buttons{
+    float:right;
+}
+#costcenter_name{
+    font-size: 16px;
+}
+.coursename a {
+    float: left;
+    background-position: inherit !important;
+    font-size: 20px;
+    background-image:none !important;
+}
+#enrollink {
+border: 1px solid;
+border-radius: 3px;
+float: right;
+padding: 1px;
+margin-left: 5px;
+font-size: 12px;
+}
+#enrollink:hover,#enrollink:focus{
+    text-decoration: none;
+}
+#toggle-content{
+    padding-top:10px;
+}
+.course-item-actions a {
+    padding: 3px;
+}
+.course-item-actions.item-actions {
+    float: right;
+}
+div#manager_list {
+padding: 15px 0 0 15px;
+font-size: 12px;
+}
+#bulk_enrollment{
+    float: right;
+margin: 5px;
+padding: 5px;
+border: 1px solid;
+border-radius: 5px;
+}
+#back_tp_course {
+    border: 1px solid;
+    border-radius: 5px;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+}
+.addcoursebutton{
+    text-align: right;
+    float: right;
+    width: 15%;
+}
+#courseview-info-costcenter{
+/*clear: both;*/
+font-size: 11px;
+padding-left: 30px;
+}
+.coursebox{
+    margin: 10px 0;
+}
+
+.coursebox.clearfix.collapsed.odd {
+background: #f9f9f9;
+}
+/*.dialog1 {*/
+/*background: #FFF;*/
+/*margin: 7px 0;*/
+/*width: 95%;*/
+/*margin: 7px auto;*/
+/*padding: 20px 0;*/
+/*border-radius: 15px;*/
+/*-webkit-border-radius: 15px;
+-webkit-box-shadow: inset 0px 0px 11px 1px rgba(219,219,219,1);
+-moz-box-shadow: inset 0px 0px 11px 1px rgba(219,219,219,1);*/
+/*box-shadow: inset 0px 0px 11px 3px rgba(226, 219, 219, 1);*/
+/*border-top: 2px solid rgb(233, 135, 135);*/
+/*border-bottom: 2px solid #6D6E72;*/
+/*}*/
+.dialog1 .dataTables_wrapper {
+width: 90%;
+margin: 0 auto;
+font-size: 12px;
+}
+.dialog1 .dataTables_wrapper .dataTables_filter input {
+margin-left: 0.5em;
+padding: 0;
+width: 150px;
+}
+.dialog1 .dataTables_wrapper label{
+    font-size: 12px;
+}
+.dialog1 .dataTables_length select{
+   height: 23px;
+line-height: 16px;
+font-size: 12px;
+}
+#assignform {
+    clear: both;
+}
+.org-type {
+    font-size: 11px;
+}
+/* CSS NARASIMHA */
+#page-local-costcenter-index .tmhead2{
+	text-align: left !important;
+    color: #fff;
+    font-size: 22px !important;
+    padding: 11px !important;
+    width: 87% !important;
+    float: left !important;
+    border-radius: 0px !important;
+    margin-top: 0px;
+    background-color: #03A9F4 !important;
+    
+}
+#page-local-costcenter-courses .tmhead2{
+	text-align:left !important;
+	color: #FFF;
+    background-color: #03A9F4;
+   	font-size: 22px !important;
+    padding: 11px !important;
+    width: 85% !important;
+    float: left !important;
+	border-radius: 0px !important; 
+}
+#costcenter-form_inner{
+	width: 100%;
+    margin: 0 auto;
+    display: list-item;
+    margin-top: 4%;
+}
+.collapsibleregioncaption a {
+	border:none !important;
+}
+.collapsibleregioncaption  {
+	border:none;
+	padding:0px 0 0 0px !important;
+}
+.collapsibleregion{
+	height: 418px !important;
+}
+.collapsibleregion.collapsed{
+	height: 50px;
+}
+.new_create {
+    background-color: #22BCB9;
+    padding: 12px;
+    margin-top: 0px;
+    float: right;
+    width: 13%;
+    color: #fff;
+    font-size: 133%;
+    height: 30px;
+}
+#costcenter-form .fitemtitle {
+    /*color: #22BCB9;*/
+}
+#costcenter-form  #id_submitbutton {
+    background-color: #22BCB9 !important;
+}
+#costcenter-form  input[type="text"]{
+	height:28px !important;
+}
+#department-index .td  #costcenter-info {
+      width: 100% !important;
+	  background-color:#fff;
+	  border:none !important;
+	  border-radius:50px;
+}
+#costcenter-info {
+      width: 100% !important;
+	  background-color:#e0e0e0;
+	  border:none !important;
+	  border-radius:50px;
+	  font-weight: bold;
+}
+a.courseassign {
+    margin-top: 5px;
+    float: left;
+    margin-left: 10px;
+}
+.mform .fcheckbox input {
+    margin-top: 13px !important;
+    margin-left: 0;
+    float: left;
+}
+span.liborder {
+    border: 1px dotted #ccc;
+    height: 100%;
+}
+#department-index .depth2 {
+    background-position: left top;
+    margin-left: 0px !important;
+    padding-left: 16px;
+}
+#department-index .depth1 {
+     padding-left: 0px !important;
+}
+#department-index .td  .departmentitem  {
+      color:#2b97b5 !important;
+}
+ .departmentitem  {
+      color:#00948d !important;
+}
+.org-type {
+    color: #ccc;
+}
+input[type="search"] {
+    height: 30px;
+}
+div#department-index_filter {
+    float: right;
+}
+div#department-index_length {
+    margin-top: 10px;
+}
+#page-local-costcenter-courses .tmhead2 {
+    color: #fff;
+    background-color: #03A9F4 !important;
+	    border-left: none !important;
+}
+#page-local-costcenter-courses  .singlebutton {
+     height: 46px;
+}
+.singlebutton div {
+     display: inline-block;
+    margin-right: 23px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding: 0;
+	float:left !important;
+}
+#page-local-costcenter-courses .addcoursebutton .singlebutton div {
+     display: inline-block;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding: 0;
+	float:left !important;
+    width: 100%;
+}
+#page-local-costcenter-courses .addcoursebutton  .singlebutton input[type="submit"] {
+    background-color: #22BCB9 !important;
+   color: #fff !important; 
+}
+#page-local-costcenter-courses .addcoursebutton  .singlebutton input[type="submit"] {
+        background-image:none !important;
+    /* color: #000 !important; */
+    border: none;
+    /* height: 0px; */
+    /* padding: 10px; */
+    height: 48px !important;
+    width: 100% !important;
+    /* padding: 0px 0 0 0 !important; */
+    outline: none;
+    /* line-height: 0 !important; */
+    margin: 20px 0 0 0px !important;
+    font-size: 100% !important;
+    border-radius: 0px;
+}
+#courseview-info {
+    text-align: center;
+    width: 100% !important;
+    margin: 0 auto;
+    border: none !important;
+    padding: 5px;
+    background-color: #e0e0e0;
+    border-radius: 55px;
+}
+
+/*CSS starts by Harsha*/
+div#department-index_filter input {
+    height: 32px;
+    border-radius: 1px;
+    width: 178px;
+}
+div#department-index_filter input:-moz-placeholder , /* Firefox 18- */
+div#department-index_filter input::-moz-placeholder , /* Firefox 19+ */
+div#department-index_filter input:-ms-input-placeholder {
+    padding-left: 8px;
+    color: #9B9B9B;
+}
+div#department-index_filter input::-webkit-input-placeholder {
+    padding-left: 8px;
+    color: #9B9B9B;
+}
+div#department-index_length {
+    margin-left: 25px;
+    color: #9B9B9B;
+}
+.tataaia_departs span.departmentitem{
+    font-weight: 600;
+}
+.tataaia_departs td #costcenter-info{
+    margin-top: 14px;
+    padding: 10px;
+}
+.tataaia_departs td .org-type{
+    color: #999999;
+}
+#page-local-costcenter-courses .coursebox>.info>.coursename{
+    width: 100%;
+    float: left;
+}
+#page-local-costcenter-course_enrol .user_courses select[multiple], select[size]{
+    width: 23em !important;
+   min-height: 25em !important;
+}
+#page-local-costcenter-course_enrol .user_courses,#page-local-costcenter-course_enrol .user_batches_filter{
+   width: 82%;
+  display: block;
+  margin: 0 0% 0 18%;
+}
+#page-local-costcenter-course_enrol #select-to option,#page-local-costcenter-course_enrol #select-from option{
+    min-height: 1.5em;
+}
+#page-local-costcenter-course_enrol #select-to optgroup,#page-local-costcenter-course_enrol #select-from optgroup{
+    min-height: 2.0em;
+}
+#page-local-costcenter-course_enrol .button_ul,#page-local-costcenter-course_enrol .filter_ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: auto;
+}
+#page-local-costcenter-course_enrol .select2 {
+    width:88% !important;
+}
+#page-local-costcenter-course_enrol .fitem_fselect {
+    width: 50%;
+    float: left;
+}
+#page-local-costcenter-course_enrol .select2-search__field{
+    width: 500px !important;
+}
+#page-local-costcenter-course_enrol .knowmore{
+      float: right;
+    background-color: #fbb444;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 8px;
+    color: #333;
+}
+#page-local-costcenter-course_enrol div#department_job_desigantion-filter_caption{
+    width: 75px;
+}
+#page-local-costcenter-course_enrol .agentbranchcode{
+    width:450px !important;
+}
+/*.coursebox{
+    border: 1px solid #b5e8f5 !important;
+    border-width: 7px !important;
+}*/
+#manage_courses_view td{
+    border: none !important;
+}
+#page-local-costcenter-courses #batch_info_table_all tbody{
+    border: 1px solid #b5e8f5 !important;
+    border-width: 15px !important;
+}
+#page-local-costcenter-courses #f2f_heading{
+    display:inline;
+    font-size: 17px !important;
+    font-weight: bold;
+}
+#manage_courses_view{
+    width: 100% !important;
+}
+#page-local-costcenter-courses .course_select{
+  width: 100%;
+  text-align: center;
+  float: left;
+  /*margin-top: 15px;commented by hameed on 21 JAN 2016 reg: bug fix*/
+}
+.costcenter_class{
+float:left;
+}

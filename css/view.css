@@ -1,0 +1,92 @@
+#page-local-collegestructure-view .row-fluid .span9{
+    width: 98% !important;
+    background: #FFFFFF !important;
+}
+#page-local-collegestructure-view #region-pre{
+    display: none;
+}
+.menu_list {
+    /*width: 100%;*/
+}
+.menu_head {
+    height:auto !important;
+    padding: 5px 10px;
+    
+    cursor: pointer;
+    position: relative;
+    margin:1px;
+    /*font-weight:bold;*/
+    /*background: #EAEAEA url(pix/t/collapsed.png) center left no-repeat;*/
+    /*border-bottom: 1px solid #F6F6F6;*/
+    margin: 1.5%;
+    overflow: hidden;
+}
+.menu_head .visible{
+    color: #00ff0c;/*changed by hameed on 09/11/2016*/
+}
+.menu_head:hover{
+    background: #30597e !important;
+    color:#FFFFFF !important;
+}
+.menu_head .color_white{
+    color:#FFFFFF !important;
+}
+.menu_body {
+    display:none;
+}
+.menu_body .summary{
+    width: 90%;
+    text-align: justify;
+    padding: 2%;
+    margin: 0 auto;
+}
+li{display:block}
+.programs_list{
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+.departments_list{
+    width: 49%;
+    float: right;
+}
+/*changed by hameed on 09/11/2016 starts*/
+.menu_program, .menu_department{
+    background: #3184b4;
+    border: 2px solid #3184b4;
+    color: #fff;
+}
+.menu_program:hover, .menu_department:hover{
+    border: 2px solid #58BCF5;
+}
+.menu_curriculum, .menu_instlist, .menu_courselist{
+    background: #4fa6d8;
+    border: 2px solid #4fa6d8;
+    color: #fff;
+}
+.menu_curriculum:hover, .menu_instlist:hover, .menu_courselist:hover{
+    border: 2px solid #85CFF9;
+}
+.menu_plan{
+    background: #8cbfdc;
+    border: 2px solid #8cbfdc;
+    color: #fff;
+}
+.menu_plan:hover{
+    border: 2px solid #B0E0FC;
+}
+.menu_course, .menu_inst{
+    background: #c3d7e2;
+    border: 2px solid #c3d7e2;
+}
+.menu_course:hover, .menu_inst:hover{
+    border: 2px solid #CFEBFA;
+}
+.menu_class{
+    background: #e4ebef;
+    border: 2px solid #e4ebef;
+}
+.menu_class:hover{
+    border: 2px solid #ECF6FC;
+}  
+/*changed by hameed on 09/11/2016 ends*/
